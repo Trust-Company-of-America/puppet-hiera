@@ -52,7 +52,7 @@ hierarchy:
       <%- } -%>
 <% } -%>
 <% if $hr['data_hash'] { -%>
-    data_hash: "<%= $hr['data_hash'] -%>"
+    data_hash: <%= $hr['data_hash'] -%>
 <% } -%>
 <% if $hr['lookup_key'] { -%>
     lookup_key: <%= $hr['lookup_key'] %>
